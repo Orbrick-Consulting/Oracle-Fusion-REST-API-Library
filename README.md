@@ -1,76 +1,58 @@
 # Oracle Fusion REST API Library
 
-Welcome to the shared Oracle Fusion Cloud REST API Postman Collection Library for Orbrick consultants.
-
-This private repository is the central home for all verified, reusable Postman collections across Oracle Fusion Cloud applications. Instead of keeping Postman collections isolated on individual laptops or sharing outdated JSON files over chat, this library maintains versioned, reviewed, and secure collections accessible to the entire consulting team.
+Shared, sanitized Postman collections for Orbrick Oracle Fusion Cloud consultants.
 
 ---
 
-## Repository Structure
+## Directory
 
-Collections are organized in a three-tier hierarchy: **Module / Category / Collection Folder**.
+Browse collections by **Module** and **Category**:
 
-* **ERP/**: Platform integrations, cross-module setups, and foundational workflows that span multiple functional domains.
-* **Financials/**: General Ledger, Accounts Payable, Accounts Receivable, Cash Management, Fixed Assets, Expenses, and Tax.
-* **Procurement/**: Purchase Orders, Requisitions, Suppliers, Sourcing, and Purchasing Agreements.
-* **SCM/**: Inventory Management, Order Management, Manufacturing, and Logistics.
-* **HCM/**: Core HR, Absence Management, Payroll, Talent Management, and Recruiting.
-* **Common/**: Shared utility patterns, including OAuth/JWT token retrieval, UCM attachments, ESS jobs, and bulk data import/export.
+| Module | Category | Naming Prefix | Focus |
+|---|---|---|---|
+| **Financials** | [General Ledger](./Financials/General-Ledger/) | `GL-` | Journals, COA, periods, daily rates |
+| **Financials** | [Accounts Payable](./Financials/Accounts-Payable/) | `AP-` | Payables invoices, holds, payments |
+| **Financials** | [Accounts Receivable](./Financials/Accounts-Receivable/) | `AR-` | Receivables invoices, receipts |
+| **Financials** | [Cash Management](./Financials/Cash-Management/) | `CE-` | Bank accounts, statements, reconciliation |
+| **Financials** | [Fixed Assets](./Financials/Fixed-Assets/) | `FA-` | Additions, adjustments, retirements |
+| **Procurement** | [Purchase Orders](./Procurement/Purchase-Orders/) | `PO-` | Purchase orders, change orders |
+| **Procurement** | [Requisitions](./Procurement/Requisitions/) | `POR-` | Self-service requisitions, approvals |
+| **Procurement** | [Suppliers](./Procurement/Suppliers/) | `PO-Suppliers-` | Supplier profiles, sites, contacts |
+| **SCM** | [Inventory](./SCM/Inventory/) | `INV-` | On-hand balances, transfers, counts |
+| **SCM** | [Order Management](./SCM/Order-Management/) | `OM-` | Sales orders, fulfillment, holds |
+| **HCM** | [Core HR](./HCM/Core-HR/) | `HCM-CoreHR-` | Workers, assignments, org structures |
+| **HCM** | [Absence](./HCM/Absence/) | `HCM-Absence-` | Leave requests, accrual balances |
+| **ERP** | [Integration](./ERP/Integration/) | `ERP-` | Cross-module FBDI, ERP Integration Service, events |
+| **Common** | [Authentication](./Common/Authentication/) | `Auth-` | IDCS / OCI IAM OAuth 2.0 & JWT tokens |
+| **Common** | [Attachments](./Common/Attachments/) | `Common-Attachments-` | Reusable `/child/attachments` patterns |
+| **Common** | [Utilities](./Common/Utilities/) | `Common-Utilities-` | Lookups, flexfields, BU/Ledger IDs, health checks |
 
-Each collection resides in its own folder with a collection JSON file, an environment template, and a `README.md` identifying the collection owner and usage guide.
+### Collection Layout
 
----
+Every collection lives in its own folder under `Module/Category/`:
 
-## How to Download and Use a Collection
-
-### Download One Collection
-1. Navigate to the relevant module and category folder above.
-2. Open the collection folder (for example, `Financials/Accounts-Payable/AP-Invoices-Create-and-Query`).
-3. Click on the `.postman_collection.json` file.
-4. Click the **Download raw file** button (downward arrow icon) in the top-right corner of the file viewer.
-5. In Postman, click **Import** (top left), select or drag the downloaded file, and confirm import.
-6. If the collection folder includes a `.postman_environment.template.json` file, download and import it as well, then fill in your project-specific host and credentials in Postman.
-
-### Download the Entire Library
-1. On the repository home page, click the green **Code** button.
-2. Select **Download ZIP**.
-3. Extract the ZIP file locally and import whichever collections you need into Postman.
-
----
-
-## How to Contribute
-
-All contributions must follow our contribution policy:
-1. **Never commit directly to `main`**: Always work on a separate branch and open a Pull Request.
-2. **Sanitize thoroughly**: Every exported file must be checked for passwords, tokens, client URLs, and sensitive customer data.
-3. **Include the collection standard files**: Each collection requires a dedicated folder containing the `.postman_collection.json`, a blank `.postman_environment.template.json`, and a completed `README.md`.
-4. **Peer Review**: At least one maintainer review is required before merging.
-
-You can contribute using either:
-* **Method 1 (Browser)**: Ideal for quick updates and occasional uploads without local Git setup.
-* **Method 2 (GitHub Desktop)**: Recommended for regular contributors, large collections, and multi-file changes.
-
-For step-by-step instructions and pre-upload checklists, read [CONTRIBUTING.md](CONTRIBUTING.md).
+```text
+<Module>/<Category>/<Collection-Name>/
+├── <Collection-Name>.postman_collection.json
+├── <Collection-Name>.postman_environment.template.json
+└── README.md
+```
 
 ---
 
-## Security and Credentials Policy
+## Quick Start
 
-This repository is private to authorized Orbrick team members. However, private access is not a substitute for data sanitization.
-
-* **Never upload real passwords, Bearer tokens, or API keys.**
-* **Never upload real customer data, employee records, or supplier bank details in saved examples.**
-* **Never upload client-specific hostnames.** Use generic variable placeholders such as `{{fusion_host}}`.
-
-If a secret is accidentally committed to any branch:
-1. Revoke and change the credential at the source immediately.
-2. Notify the repository maintainers.
-3. Close the Pull Request so the commit can be permanently removed from Git history.
+1. **Download** — Open a collection folder and click **Download raw file** on the `.json` files (or use **Code → Download ZIP** for the full library).
+2. **Import** — In Postman, click **Import** and select both the collection and environment template files.
+3. **Configure** — Select the imported environment, set `{{fusion_host}}` and your credentials in **Current Value**, and run your first request.
 
 ---
 
-## Maintainers
+## Contributing
 
-* Repository Owner: [Your Name / Orbrick Lead]
-* Lead Maintainers: [Maintainer Team]
-* Response SLA: Pull Requests are reviewed within two working days.
+1. **Branch & PR only** — Never push directly to `main`. All changes require a Pull Request and one maintainer approval.
+2. **Use the templates** — Copy [_templates/COLLECTION-README-TEMPLATE.md](./_templates/COLLECTION-README-TEMPLATE.md) and [_templates/COLLECTION-ENVIRONMENT-TEMPLATE.json](./_templates/COLLECTION-ENVIRONMENT-TEMPLATE.json) into your collection folder.
+3. **Zero secrets** — Strip all passwords, tokens, client hostnames (`{{fusion_host}}` only), and real customer data before uploading.
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the step-by-step guide, or open the [Training Manual](./docs/Oracle-Fusion-REST-API-Library-Training-Manual.docx).
+

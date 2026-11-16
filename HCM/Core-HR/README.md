@@ -1,12 +1,21 @@
-# HCM: Core HR
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Human Capital Management (HCM) Core HR processes.
+# HCM — Core HR
 
-### Scope and Example Workflows:
-* Worker profiles, employee records, and contingent worker queries (`/hcmRestApi/resources/11.13.18.05/workers`).
-* Work relationship, assignment, and employment terms lookup.
-* Person emails, phones, addresses, and national identifiers management.
-* Organization hierarchy, department, job, and position data lookups.
+Postman collections for Oracle Fusion Cloud Core HR worker, assignment, and organization data.
 
-Collections in this folder must follow the naming pattern: `HCM-CoreHR-[Process-Name]`.
-Example: `HCM-CoreHR-Workers-Query`, `HCM-CoreHR-Assignments-Lookup`.
+**Naming:** `HCM-CoreHR-[Process-Name]` (e.g. `HCM-CoreHR-Workers-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/hcmRestApi/resources/11.13.18.05/workers` — Workers, work relationships, and assignments
+* Person emails, phones, addresses, and national identifiers
+* Departments, jobs, positions, and organization lookups
+
+

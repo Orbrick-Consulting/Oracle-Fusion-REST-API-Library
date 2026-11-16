@@ -1,13 +1,21 @@
-# Financials: Accounts Payable
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Payables (AP) transactions and lifecycle operations.
+# Financials — Accounts Payable
 
-### Scope and Example Workflows:
-* Payables standard and prepayment invoice creation, lines, and distributions (`/fscmRestApi/resources/11.13.18.05/invoices`).
-* Invoice validation, approval workflows, cancellation, and holds management.
-* Payment requests and disbursement operations.
-* 1099 reporting setup and tax details.
-* Payables invoice attachment upload and download.
+Postman collections for Oracle Fusion Cloud Payables (AP) invoices, holds, payments, and tax workflows.
 
-Collections in this folder must follow the naming pattern: `AP-[Process-Name]`.
-Example: `AP-Invoices-Create-and-Query`, `AP-Invoices-Cancel-and-Hold`.
+**Naming:** `AP-[Process-Name]` (e.g. `AP-Invoices-Create-and-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/invoices` — Standard/prepayment invoices, lines, and distributions
+* Invoice validation, approval, holds, and cancellation
+* Payment requests, disbursements, and invoice attachments
+
+

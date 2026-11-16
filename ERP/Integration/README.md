@@ -1,12 +1,23 @@
-# ERP: Integration
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for cross-functional integration processes that span multiple functional areas or interact directly with the Oracle Fusion Cloud ERP integration framework.
+# ERP — Integration
 
-### Scope and Example Workflows:
-* Enterprise Scheduler Service (ESS) job execution, monitoring, and output retrieval.
-* Oracle ERP Integration Service (SOAP/REST bridging, data load triggers).
-* Universal Content Management (UCM / WebCenter Content) document check-in and search.
-* Business Event subscriptions and webhook callbacks.
+Postman collections for **cross-module** Oracle Fusion ERP integration orchestration (FBDI, ERP Integration Service, and business events).
 
-When to use this folder:
-Use `ERP/Integration/` only when a collection spans across multiple functional domains. If an integration is specific to a single domain (for example, importing only AP Invoices), place it under that specific module (such as `Financials/Accounts-Payable/`).
+> **Note:** Single-module integrations belong in their own functional folder (for example, AP Invoice imports go under `Financials/Accounts-Payable/`).
+
+**Naming:** `ERP-[Process-Name]` (e.g. `ERP-Integration-Service-FBDI`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/erpintegrations` — Bulk FBDI import/export orchestration
+* Cross-domain ESS job submission, status polling, and callback patterns
+* Business event subscriptions and webhook triggers
+
+

@@ -1,13 +1,21 @@
-# SCM: Inventory
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Inventory Management and material handling workflows.
+# SCM — Inventory
 
-### Scope and Example Workflows:
-* Item inventory balances and on-hand availability queries (`/fscmRestApi/resources/11.13.18.05/inventoryOnHandBalances`).
-* Miscellaneous inventory transactions (receipts, issues).
-* Subinventory transfers and interorganization transfers.
-* Cycle counting, physical inventory counts, and inventory adjustments.
-* Lot and serial number tracking queries.
+Postman collections for Oracle Fusion Cloud Inventory Management and material transactions.
 
-Collections in this folder must follow the naming pattern: `INV-[Process-Name]`.
-Example: `INV-OnHand-Balances-Query`, `INV-Misc-Transactions-Create`.
+**Naming:** `INV-[Process-Name]` (e.g. `INV-OnHand-Balances-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/inventoryOnHandBalances` — Item balances and availability
+* Miscellaneous receipts/issues, subinventory and interorg transfers
+* Cycle counts, physical inventory, and lot/serial tracking
+
+

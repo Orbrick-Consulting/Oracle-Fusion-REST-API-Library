@@ -1,12 +1,21 @@
-# Financials: Fixed Assets
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Assets (FA) lifecycle and reporting operations.
+# Financials — Fixed Assets
 
-### Scope and Example Workflows:
-* Asset addition, classification, and depreciation book assignment.
-* Asset adjustments (financial, source line, and category transfers).
-* Asset retirement, reinstatement, and transfer requests.
-* Asset inquiry and physical inventory tracking.
+Postman collections for Oracle Fusion Cloud Assets (FA) additions, adjustments, and retirements.
 
-Collections in this folder must follow the naming pattern: `FA-[Process-Name]`.
-Example: `FA-Asset-Additions-and-Query`.
+**Naming:** `FA-[Process-Name]` (e.g. `FA-Asset-Additions-and-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* Asset additions, classification, and depreciation book assignment
+* Financial adjustments, source lines, and category transfers
+* Asset retirements, reinstatements, and physical inventory
+
+

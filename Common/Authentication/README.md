@@ -1,10 +1,21 @@
-# Common: Authentication
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for authenticating against Oracle Fusion Cloud environments and obtaining tokens for downstream API calls.
+# Common — Authentication
 
-### Scope and Example Workflows:
-* Oracle Identity Cloud Service (IDCS) / OCI IAM OAuth 2.0 client credentials token flow.
-* User JWT token generation and session token caching.
-* Pre-request script patterns to automatically renew tokens across requests.
+Reusable Postman collections for authenticating against Oracle Fusion Cloud and managing session tokens.
 
-Use this collection as a prerequisite before running API collections that rely on Bearer token authentication rather than Basic Auth.
+**Naming:** `Auth-[Process-Name]` (e.g. `Auth-IDCS-OAuth-Token`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* IDCS / OCI IAM OAuth 2.0 client credentials and assertion flows
+* User JWT token retrieval and caching into `{{jwt_token}}`
+* Pre-request script patterns for automatic token renewal
+
+

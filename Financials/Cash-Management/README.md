@@ -1,12 +1,21 @@
-# Financials: Cash Management
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Cash Management operations.
+# Financials — Cash Management
 
-### Scope and Example Workflows:
-* Internal bank accounts, bank branches, and bank statements query and setup.
-* Cash position and cash forecast lookups.
-* Bank statement line import and automated reconciliation rules.
-* External transactions entry.
+Postman collections for Oracle Fusion Cloud Cash Management (CE) banks, statements, and reconciliation.
 
-Collections in this folder must follow the naming pattern: `CE-[Process-Name]`.
-Example: `CE-Bank-Statements-Query`, `CE-Bank-Accounts-Manage`.
+**Naming:** `CE-[Process-Name]` (e.g. `CE-Bank-Statements-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* Internal bank accounts, branches, and bank statements
+* Statement line imports and automated reconciliation rules
+* Cash position, forecasts, and external transactions
+
+

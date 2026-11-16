@@ -1,52 +1,47 @@
 # <Collection Name>
 
-## Purpose
+One-sentence description of the business scenario this collection covers.
 
-One or two sentences on what business scenario this collection helps a consultant execute.
-
-## Details
-
-| Item | Value |
+| Field | Value |
 |---|---|
-| Module | e.g. Financials |
-| Category | e.g. Accounts-Payable |
-| Owner | Name, email |
-| Fusion release tested on | e.g. 24D, 25A |
-| Authentication used | e.g. Basic Auth, OAuth 2.0 (describe type only; never include credentials) |
-| Oracle API reference | Link to official docs.oracle.com REST API reference |
-| Status | Active / Deprecated / Archived |
+| **Module / Category** | e.g., `Financials / Accounts-Payable` |
+| **Owner** | Name (`email@orbrick.com`) |
+| **Fusion Release** | e.g., `24D`, `25A` |
+| **Auth Type** | e.g., `OAuth 2.0 Bearer` / `Basic Auth` |
+| **Oracle Docs** | [REST API Reference](https://docs.oracle.com/en/cloud/saas/index.html) |
+| **Status** | `Active` |
 
-## Variables to set before use
+## Requests
 
-Configure these variables in your Postman environment:
-
-| Variable | Description | Example value |
-|---|---|---|
-| `{{baseUrl}}` | Your Fusion host URL | `https://your-instance.oraclecloud.com` |
-| `{{username}}` | Your integration test user | `integration.user` |
-| `{{password}}` | Your password (never commit; set in Postman Current Value) | (leave empty in repository) |
-| `{{jwt_token}}` | Bearer token if using OAuth 2.0 / JWT | (set dynamically via Auth collection) |
-
-## Requests included
-
-| Step | Method | Request | Endpoint / Description |
+| # | Method | Name | Endpoint |
 |:---:|:---:|---|---|
 | 1 | `GET` | Query records | `/fscmRestApi/resources/11.13.18.05/...` |
 | 2 | `POST` | Create record | `/fscmRestApi/resources/11.13.18.05/...` |
 
-## How to use
+## Environment Variables
 
-1. Download the `<Collection-Name>.postman_collection.json` and environment template files.
-2. In Postman, click **Import** and select the files.
-3. Select the imported environment and populate the variables listed above for your target test instance.
-4. Run the first query request to verify connectivity and authentication.
+Set these in Postman **Current Value** before running (never commit real values):
 
-## Known issues
+| Variable | Description | Example |
+|---|---|---|
+| `{{fusion_host}}` | Fusion pod base URL | `https://your-instance.oraclecloud.com` |
+| `{{username}}` | Integration user (if Basic Auth) | `integration.user` |
+| `{{password}}` | User password (if Basic Auth) | *(keep blank in repo)* |
+| `{{jwt_token}}` | Bearer token (if OAuth / JWT) | *(generated via Auth collection)* |
 
-List anything a consultant should be aware of (e.g. required privileges, timing constraints, known Oracle bugs). Write "None known" if empty.
+## Quick Use
 
-## Change log
+1. Import `<Collection-Name>.postman_collection.json` and `<Collection-Name>.postman_environment.template.json`.
+2. Select the environment and populate your target pod variables.
+3. Run Request `#1` to verify connectivity.
 
-| Date | Author | Change description |
+## Notes
+
+* *None known* (list required roles, privileges, or Oracle quirks here).
+
+## Change Log
+
+| Date | Author | Summary |
 |---|---|---|
 | YYYY-MM-DD | Name | Initial upload |
+

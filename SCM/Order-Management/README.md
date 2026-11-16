@@ -1,12 +1,21 @@
-# SCM: Order Management
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Order Management (DOO / OM) processes.
+# SCM — Order Management
 
-### Scope and Example Workflows:
-* Sales order header and line creation (`/fscmRestApi/resources/11.13.18.05/salesOrders`).
-* Order pricing, promotions, and discount recalculation.
-* Sales order submission and fulfillment lines tracking.
-* Order holds, cancellation, and revision management.
+Postman collections for Oracle Fusion Cloud Order Management (DOO / OM) workflows.
 
-Collections in this folder must follow the naming pattern: `OM-[Process-Name]`.
-Example: `OM-Sales-Orders-Create-and-Submit`, `OM-Fulfillment-Lines-Query`.
+**Naming:** `OM-[Process-Name]` (e.g. `OM-Sales-Orders-Create-and-Submit`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/salesOrders` — Sales order headers, lines, and submission
+* Order pricing, promotions, and discount recalculation
+* Fulfillment line tracking, holds, revisions, and cancellations
+
+

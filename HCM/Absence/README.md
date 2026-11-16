@@ -1,12 +1,21 @@
-# HCM: Absence Management
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Absence Management.
+# HCM — Absence
 
-### Scope and Example Workflows:
-* Absence records and leave requests creation and inquiry (`/hcmRestApi/resources/11.13.18.05/absences`).
-* Employee accrual balances and plan enrollment lookups.
-* Absence types, reasons, and certification inquiries.
-* Absence approvals and status tracking.
+Postman collections for Oracle Fusion Cloud Absence Management leave and accrual workflows.
 
-Collections in this folder must follow the naming pattern: `HCM-Absence-[Process-Name]`.
-Example: `HCM-Absence-Records-Create-and-Query`.
+**Naming:** `HCM-Absence-[Process-Name]` (e.g. `HCM-Absence-Records-Create-and-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/hcmRestApi/resources/11.13.18.05/absences` — Absence records and leave requests
+* Employee accrual balances and plan enrollments
+* Absence types, reasons, and approval status tracking
+
+

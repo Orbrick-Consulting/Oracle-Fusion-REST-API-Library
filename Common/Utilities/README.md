@@ -1,10 +1,21 @@
-# Common: Utilities
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for cross-cutting administrative tasks, diagnostics, and testing utilities in Oracle Fusion Cloud.
+# Common — Utilities
 
-### Scope and Example Workflows:
-* Enterprise Scheduler Service (ESS) job definition queries and execution status polling.
-* Diagnostic log and BI Publisher report delivery via REST.
-* Flexfield value set values and lookup codes extraction.
-* Business Unit and Ledger ID lookup utilities.
-* Generic health-check and ping endpoints to verify environment availability and latency.
+Reusable Postman collections for shared Oracle Fusion Cloud lookups, diagnostics, and environment health checks.
+
+**Naming:** `Common-Utilities-[Process-Name]` (e.g. `Common-Utilities-Lookups-and-Health`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* Business Unit, Legal Entity, and Ledger ID lookups
+* Flexfield value sets and standard lookup codes queries
+* BI Publisher report delivery and environment ping / health checks
+
+

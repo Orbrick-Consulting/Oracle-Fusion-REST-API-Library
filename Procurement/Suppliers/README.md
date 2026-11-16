@@ -1,13 +1,21 @@
-# Procurement: Suppliers
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Supplier Model setup and maintenance.
+# Procurement — Suppliers
 
-### Scope and Example Workflows:
-* Supplier profile creation and inquiry (`/fscmRestApi/resources/11.13.18.05/suppliers`).
-* Supplier sites, site assignments, and purchasing site definitions.
-* Supplier contacts, user accounts, and contact addresses.
-* Supplier bank accounts and payment methods setup.
-* Supplier qualification and registration status lookups.
+Postman collections for Oracle Fusion Cloud Supplier Model setup and maintenance.
 
-Collections in this folder must follow the naming pattern: `PO-Suppliers-[Process-Name]`.
-Example: `PO-Suppliers-Create-and-Query`, `PO-Supplier-Sites-Manage`.
+**Naming:** `PO-Suppliers-[Process-Name]` (e.g. `PO-Suppliers-Create-and-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/suppliers` — Supplier profiles, sites, and site assignments
+* Supplier contacts, addresses, bank accounts, and payment methods
+* Qualification and registration status lookups
+
+

@@ -1,12 +1,20 @@
-# Procurement: Requisitions
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Self-Service Procurement (SSP) purchase requisitions.
+# Procurement — Requisitions
 
-### Scope and Example Workflows:
-* Purchase requisition header and line creation (`/fscmRestApi/resources/11.13.18.05/purchaseRequisitions`).
-* Requisition distributions and charge account derivation.
-* Requisition submission for approval and approval status inquiry.
-* Catalog and non-catalog item requisition lines.
+Postman collections for Oracle Fusion Cloud Self-Service Procurement (POR) requisitions.
 
-Collections in this folder must follow the naming pattern: `POR-[Process-Name]`.
-Example: `POR-Requisitions-Create-and-Submit`.
+**Naming:** `POR-[Process-Name]` (e.g. `POR-Requisitions-Create-and-Submit`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/purchaseRequisitions` — Requisition headers, catalog/non-catalog lines, and distributions
+* Requisition submission and approval status queries
+
+

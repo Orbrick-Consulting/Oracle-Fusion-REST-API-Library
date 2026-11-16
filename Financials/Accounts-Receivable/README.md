@@ -1,12 +1,21 @@
-# Financials: Accounts Receivable
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Receivables (AR) operations and customer billing workflows.
+# Financials — Accounts Receivable
 
-### Scope and Example Workflows:
-* Receivables invoice, debit memo, and credit memo creation (`/fscmRestApi/resources/11.13.18.05/receivablesInvoices`).
-* Customer accounts, account sites, and payment terms lookup.
-* Standard receipts and miscellaneous receipts creation and application.
-* Revenue recognition and accounting distributions.
+Postman collections for Oracle Fusion Cloud Receivables (AR) customer billing, receipts, and revenue workflows.
 
-Collections in this folder must follow the naming pattern: `AR-[Process-Name]`.
-Example: `AR-Invoices-Create-and-Query`, `AR-Receipts-Create-and-Apply`.
+**Naming:** `AR-[Process-Name]` (e.g. `AR-Invoices-Create-and-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/receivablesInvoices` — Receivables invoices, debit memos, and credit memos
+* Customer accounts, sites, and payment terms lookups
+* Standard/miscellaneous receipts and revenue distributions
+
+

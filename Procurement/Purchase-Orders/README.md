@@ -1,12 +1,21 @@
-# Procurement: Purchase Orders
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud Purchasing (PO) lifecycle processes.
+# Procurement — Purchase Orders
 
-### Scope and Example Workflows:
-* Purchase order header, line, and schedule creation (`/fscmRestApi/resources/11.13.18.05/purchaseOrders`).
-* PO change orders, cancellation, closing, and re-opening.
-* Purchasing lines split, account distributions, and destination information.
-* PO PDF report generation and dispatch.
+Postman collections for Oracle Fusion Cloud Purchasing (PO) lifecycle operations.
 
-Collections in this folder must follow the naming pattern: `PO-[Process-Name]`.
-Example: `PO-Orders-Create-and-Query`, `PO-Change-Orders-Manage`.
+**Naming:** `PO-[Process-Name]` (e.g. `PO-Orders-Create-and-Query`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/purchaseOrders` — PO headers, lines, schedules, and distributions
+* Change orders, cancellations, closing, and reopening
+* PO PDF report generation and dispatch
+
+

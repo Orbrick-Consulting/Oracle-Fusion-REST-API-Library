@@ -1,11 +1,21 @@
-# Common: Attachments
+[← Back to Library](../../README.md)
 
-This folder contains reusable Postman collections for managing file attachments across Oracle Fusion Cloud applications.
+# Common — Attachments
 
-### Scope and Example Workflows:
-* Uploading file attachments to business objects (Invoices, Purchase Orders, Journal Entries, Suppliers) via standard REST `/child/attachments` endpoints.
-* Downloading attachment content (binary stream or Base64).
-* Managing attachment categories, title, and descriptive text.
-* Direct Universal Content Management (UCM / WebCenter) check-in via REST.
+Reusable Postman collections for uploading and downloading attachments across Oracle Fusion Cloud objects.
 
-Collections in this folder provide standard multipart/form-data and JSON Base64 attachment patterns that can be adapted for any functional module.
+**Naming:** `Common-Attachments-[Process-Name]` (e.g. `Common-Attachments-Upload-and-Download`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* Standard `/child/attachments` multipart and JSON Base64 uploads
+* Binary stream and Base64 attachment downloads
+* Attachment categories, titles, and UCM document check-in templates
+
+

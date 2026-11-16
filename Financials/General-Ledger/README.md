@@ -1,13 +1,21 @@
-# Financials: General Ledger
+[← Back to Library](../../README.md)
 
-This folder contains Postman collections for Oracle Fusion Cloud General Ledger processes.
+# Financials — General Ledger
 
-### Scope and Example Workflows:
-* Journal entry creation, submission, and posting (`/fscmRestApi/resources/11.13.18.05/journalEntries`).
-* Chart of Accounts (COA) segments, segment values, and hierarchy lookups.
-* Accounting period status queries.
-* Daily conversion rates and exchange rate imports.
-* Account balance inquiries.
+Postman collections for Oracle Fusion Cloud General Ledger (GL) journals, chart of accounts, periods, and rates.
 
-Collections in this folder must follow the naming pattern: `GL-[Process-Name]`.
-Example: `GL-Daily-Rates-Manage` or `GL-Manual-Journals-Create-and-Post`.
+**Naming:** `GL-[Process-Name]` (e.g. `GL-Manual-Journals-Create-and-Post`)
+
+## Collections
+
+| Collection | Description | Owner | Status |
+|---|---|---|---|
+| *(None yet)* | *Submit a PR to add the first collection* | — | — |
+
+## Key Resources
+
+* `/fscmRestApi/resources/11.13.18.05/journalEntries` — Journal entry creation, submission, and posting
+* Chart of Accounts segments, segment values, and accounting period lookups
+* Daily conversion rates and account balance inquiries
+
+
