@@ -1,6 +1,6 @@
 # Oracle Fusion REST API Library
 
-Shared, sanitized Postman collections for Orbrick Oracle Fusion Cloud consultants.
+Shared Postman collections for Orbrick Oracle Fusion Cloud consultants.
 
 ---
 
