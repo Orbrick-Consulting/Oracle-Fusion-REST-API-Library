@@ -1,0 +1,8 @@
+# CODEOWNERS
+# Lines starting with '#' are comments.
+# Each line defines a file pattern followed by one or more owners.
+# When "Require review from Code Owners" is enabled in branch protection,
+# an approval from one of these designated leads is strictly required before merge.
+
+# Default rule: All files require review and sign-off by repository leads
+* @Orbrick-Consulting/leads @Kuldip092
