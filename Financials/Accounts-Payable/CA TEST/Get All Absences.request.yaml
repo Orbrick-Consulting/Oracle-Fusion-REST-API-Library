@@ -1,0 +1,10 @@
+$kind: http-request
+url: https://fa-euty-test-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/11.13.18.05/absences
+method: GET
+auth:
+  type: basic
+  credentials:
+    username: SvcIntegrationERPUser
+    password: Welcome123
+settings: {}
+order: 3000
