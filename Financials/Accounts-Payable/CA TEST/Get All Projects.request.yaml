@@ -1,0 +1,10 @@
+$kind: http-request
+url: https://fa-euty-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/11.13.18.05/projects
+method: GET
+auth:
+  type: basic
+  credentials:
+    username: SvcIntegrationERPUser
+    password: Welcome123
+settings: {}
+order: 1000
